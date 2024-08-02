@@ -173,7 +173,7 @@ checkoutBtn.addEventListener("click", function(){
     }).join("")
 
     const message = encodeURIComponent(cartItems)
-    const phone = "31992151518"
+    const phone = alert("Nenhum número cadastrado para fazer pedido!")
 
     window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank") 
 
